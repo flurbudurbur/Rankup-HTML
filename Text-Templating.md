@@ -31,4 +31,4 @@ Rank Placeholder | Next Placeholder | Description
 `{{ rank.requirement('<requirement>') }}`<br>`{{rank.req('<requirement>') }} ` | `{{ next.requirement('<requirement>') }}`<br>`{{next.req('<requirement>') }} ` | Get a specific requirement for the rank the player is on.
 `{{ rank.requirements[<index>] }}` | `{{ next.requirements[<index>] }}` | Retrieve a requirement by its index.<br>Useful if you have multiple requirements of the same name.<br> `{% rank.requirements %}` [is iterable](./Pebble/Iterable.html).
 `{{ seconds }}` | N/A | Total cooldown in seconds before you can rankup again.
-`{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again..
+`{{ seconds_left }}` | N/A | What's left of the cooldown in seconds before you can rankup again.
